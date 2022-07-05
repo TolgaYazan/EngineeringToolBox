@@ -1,0 +1,173 @@
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    padding-top: 60px;
+}
+
+.left-side{
+    width: 30%;
+    padding-right: 15px;
+}
+
+.right-side{
+    width: 70%;
+    padding: 0 15px;
+}
+
+.jb_cover{
+    float: left;
+    width: 100%;
+}
+
+.job_filter_sidebar_heading h1 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.job_filter_category_sidebar{
+    border: 1px solid #e2e2e2;
+    margin-bottom: 30px;
+}
+
+.job_filter_sidebar_heading{
+    padding: 18px 25px;
+    background: #ff3366;
+}
+
+.job_overview_header{
+    padding: 40px;
+}
+
+.jb_job_overview_img{
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.jb_job_overview_img h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.jb_job_overview_img img {
+    padding-bottom: 20px;
+}
+
+.jb_job_overview_img p {
+    font-size: 16px;
+    color: #ff3366;
+}
+
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.job_single_lists{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.job_single_lists li {
+    float: left;
+    margin-right: 15px;
+}
+
+.header_btn{
+
+}
+
+.search_btn a {
+    height: 50px;
+    background: #ff3366;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid transparent;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.part_time_btn a {
+    padding: 10px 20px;
+}
+
+.jp_listing_overview_list_main_wrapper{
+    padding-bottom: 30px;
+}
+
+.jp_listing_list_icon {
+    float: left;
+    width: 20px;
+    line-height: 30px;
+}
+
+.jp_listing_list_icon i {
+    color: #ff5353;
+}
+
+.jp_listing_list_icon_cont_wrapper {
+    float: left;
+    width: calc(100% - 20px);
+    padding-left: 10px;
+}
+
+.overview_btn a {
+    width: 100%;
+    float: none;
+    display: inline-block;
+}
+
+
+
+
+
+.jb_listing_single_overview{
+    border: 1px solid #e2e2e2;
+}
+
+.jp_job_des {
+    padding: 30px;
+}
+
+.jb_listing_single_overview p {
+    margin: 0;
+    color: #777777;
+}
+
+.job_description_heading {
+    font-size: 22px;
+    color: #222;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+.jp_job_res {
+    padding: 30px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.jp_job_res ul {
+    margin-top: 30px;
+}
+
+.jp_job_res li {
+    margin-top: 16px;
+}
+
+.jp_job_res li:first-child {
+    margin-top: 0;
+}
+
+.jp_job_res li i {
+    color: #ff5353;
+}
